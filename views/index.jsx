@@ -8,20 +8,20 @@ function Index({ breads }) {
             <h2>Index Page</h2>
             {/* <p>I have {breads[0].name} bread!</p> */}
             <ul>{
-               breads.map((bread, index)=> {
-                    return (<li key={index}>
-                        <a>{bread.name}</a>
-                    </li>)
+                breads.map((bread, index) => {
+                    return (
+                        <li key={index}>
+                            <a href={`/breads/${index}`}>
+                                {bread.name}
+                            </a>
+                        </li>
+                    )
                 })
-            }</ul>
+            }
+            </ul>
         </Default>
     )
 }
 
 module.exports = Index
 
- // breads.map((bread, index)=> {
-                //     return (<li key={index}>
-                //         <a>{bread.name}</a>
-                //     </li>)
-                // })
