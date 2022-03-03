@@ -5,7 +5,6 @@ require('dotenv').config()
 const mongoose = require('mongoose')
 const PORT = process.env.PORT
 const app = express()
-console.log(PORT)
  
 // DEPENDENCIES
 const methodOverride = require('method-override')
