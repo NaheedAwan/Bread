@@ -11,7 +11,7 @@ function Default(html) {
         <link rel="stylesheet" href="/main.css" />
       </head>
       <body>
-        <h1>HTML Rendered!</h1>
+        {/* <h1>HTML Rendered!</h1> */}
         <div className="wrapper">
           <header>
             <h1><a href="/breads">BreadCRUD</a></h1>
